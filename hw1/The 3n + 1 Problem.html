@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://140.116.82.72/contest/3/problem/hw1_1 -->
+<html class="no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CPOJ | The 3n + 1 Problem</title><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="shortcut icon" href="http://140.116.82.72/public/website/favicon.ico"><link href="./The 3n + 1 Problem_files/loader.css" rel="stylesheet"><script>// IE 10 and earlier
+    if (window.navigator.userAgent.indexOf('MSIE ') > 0 &&
+      window.confirm('Your browser is not supported, click \'OK\' to update')) {
+      window.location = 'http://outdatedbrowser.com'
+    }</script><link href="./The 3n + 1 Problem_files/vendor.d7eb5fa53e8000d7b3455700fc1c8303.css" rel="stylesheet"><link href="./The 3n + 1 Problem_files/oj.aaad07b0f9a7fec55c5bbc7920d7d510.css" rel="stylesheet"><script async="" src="./The 3n + 1 Problem_files/analytics.js.下載" charset="utf8"></script><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+    border: 1px solid #c8c7cc !important;
+    border-radius: 11px !important;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px !important;
+    width: auto !important;
+}
+
+.dark-mode .iw-contextMenu,
+.TnITTtw-dark-mode.iw-contextMenu,
+.TnITTtw-dark-mode .iw-contextMenu {
+    border-color: #747473 !important;
+}
+
+.iw-cm-menu {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: visible !important;
+}
+
+.dark-mode .iw-cm-menu,
+.TnITTtw-dark-mode.iw-cm-menu,
+.TnITTtw-dark-mode .iw-cm-menu {
+    background: #525251 !important;
+    color: #FFF !important;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    list-style: none !important;
+    padding: 10px !important;
+    padding-right: 20px !important;
+    border-bottom: 1px solid #c8c7cc !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: inherit !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li {
+    border-bottom-color: #747473 !important;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px !important;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    border-bottom: none !important;
+}
+
+.iw-mOverlay {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    background: #FFF !important;
+    opacity: .5 !important;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3 !important;
+    cursor: default !important;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6 !important;
+}
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected {
+    background-color: #676766 !important;
+}
+
+.iw-cm-arrow-right {
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #000 !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 50% !important;
+    margin-top: -5px !important;
+}
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right {
+    border-left-color: #FFF !important;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style><script type="text/javascript" charset="utf-8" async="" src="./The 3n + 1 Problem_files/0.f0881bf3d6adfd9e8087.js.下載"></script><script type="text/javascript" charset="utf-8" async="" src="./The 3n + 1 Problem_files/2.5af34046724497749959.js.下載"></script><script type="text/javascript" charset="utf-8" async="" src="./The 3n + 1 Problem_files/5.2dfa17083f32b1346477.js.下載"></script></head><body><div><div data-v-2e5fb307="" id="header"><ul data-v-2e5fb307="" class="oj-menu ivu-menu ivu-menu-light ivu-menu-horizontal"><div data-v-2e5fb307="" class="logo"><span data-v-2e5fb307="">Competitive Programming 2021 (Spring)</span></div> <li data-v-2e5fb307="" class="ivu-menu-item"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-home"></i>
+      Home
+    </li> <li data-v-2e5fb307="" class="ivu-menu-item"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-ios-keypad"></i>
+      Problems
+    </li> <li data-v-2e5fb307="" class="ivu-menu-item ivu-menu-item-active ivu-menu-item-selected"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-trophy"></i>
+      Contests
+    </li> <li data-v-2e5fb307="" class="ivu-menu-item"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-ios-pulse-strong"></i>
+      Status
+    </li> <li data-v-2e5fb307="" class="ivu-menu-submenu"><div class="ivu-menu-submenu-title"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-podium"></i>
+        Rank
+       <i class="ivu-icon ivu-icon-ios-arrow-down ivu-menu-submenu-title-icon"></i></div> <div class="ivu-select-dropdown" style="min-width: 117.448px; transform-origin: center top; display: none;"><ul class="ivu-menu-drop-list"> <li data-v-2e5fb307="" class="ivu-menu-item">
+        ACM Rank
+      </li> <li data-v-2e5fb307="" class="ivu-menu-item">
+        OI Rank
+      </li></ul></div></li> <li data-v-2e5fb307="" class="ivu-menu-submenu"><div class="ivu-menu-submenu-title"><i data-v-2e5fb307="" class="ivu-icon ivu-icon-information-circled"></i>
+        About
+       <i class="ivu-icon ivu-icon-ios-arrow-down ivu-menu-submenu-title-icon"></i></div> <div class="ivu-select-dropdown" style="min-width: 120.573px; transform-origin: center top; display: none;"><ul class="ivu-menu-drop-list"> <li data-v-2e5fb307="" class="ivu-menu-item">
+        Judger
+      </li> <li data-v-2e5fb307="" class="ivu-menu-item">
+        FAQ
+      </li></ul></div></li> <div data-v-2e5fb307="" class="drop-menu ivu-dropdown"><div class="ivu-dropdown-rel"><button data-v-2e5fb307="" type="button" class="drop-menu-title ivu-btn ivu-btn-text"><!----> <!----> <span>f74074122
+          <i data-v-2e5fb307="" class="ivu-icon ivu-icon-arrow-down-b"></i></span></button> </div> <div class="ivu-select-dropdown" style="display: none;"><ul data-v-2e5fb307="" class="ivu-dropdown-menu"><li data-v-2e5fb307="" class="ivu-dropdown-item">Home</li> <li data-v-2e5fb307="" class="ivu-dropdown-item">Submissions</li> <li data-v-2e5fb307="" class="ivu-dropdown-item">Settings</li> <!----> <li data-v-2e5fb307="" class="ivu-dropdown-item ivu-dropdown-item-divided">Logout</li></ul></div></div></ul> <!----></div> <div class="content-app"><div data-v-64fc3174="" class="flex-container"><div data-v-64fc3174="" id="contest-main"><div data-v-6e5e6c6e="" data-v-64fc3174="" class="flex-container"><div data-v-6e5e6c6e="" id="problem-main"><div data-v-6e5e6c6e="" class="ivu-card ivu-card-dis-hover ivu-card-shadow"><div class="ivu-card-head"><div class="panel-title"><div data-v-6e5e6c6e="">The 3n + 1 Problem</div></div></div> <div class="ivu-card-extra"><div class="panel-extra"></div></div> <div class="ivu-card-body" style="padding: 40px;">  <div class="panel-body"> <div data-v-6e5e6c6e="" id="problem-content" class="markdown-body"><p data-v-6e5e6c6e="" class="title">Description</p> <p data-v-6e5e6c6e="" class="content"><p><img alt="image.png" src="./The 3n + 1 Problem_files/e83fa1014b.png" width="1000" height="644.2307692307693"><br></p></p> <p data-v-6e5e6c6e="" class="title">Input <!----></p> <p data-v-6e5e6c6e="" class="content"><p><img alt="image.png" src="./The 3n + 1 Problem_files/95677b86bf.png" width="1000" height="135.3711790393013"><br></p></p> <p data-v-6e5e6c6e="" class="title">Output <!----></p> <p data-v-6e5e6c6e="" class="content"><p><img alt="image.png" src="./The 3n + 1 Problem_files/f976d38847.png" width="1000" height="137.117903930131"><br></p></p>  <div data-v-6e5e6c6e=""><div data-v-6e5e6c6e="" class="flex-container sample"><div data-v-6e5e6c6e="" class="sample-input"><p data-v-6e5e6c6e="" class="title">Sample Input 1
+                <a data-v-6e5e6c6e="" class="copy"><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-clipboard"></i></a></p> <pre data-v-6e5e6c6e="">1 10
+100 200
+201 210
+900 1000</pre></div> <div data-v-6e5e6c6e="" class="sample-output"><p data-v-6e5e6c6e="" class="title">Sample Output 1</p> <pre data-v-6e5e6c6e="">1 10 20
+100 200 125
+201 210 89
+900 1000 174</pre></div></div></div> <!----> <!----></div></div></div></div> <div data-v-6e5e6c6e="" class="ivu-card ivu-card-bordered ivu-card-dis-hover" id="submit-code"><!----> <!----> <div class="ivu-card-body" style="padding: 20px;"><div data-v-3655497a="" data-v-6e5e6c6e="" style="margin: 0px 0px 15px;"><div data-v-3655497a="" class="header ivu-row-flex ivu-row-flex-space-between"><div data-v-3655497a="" class="ivu-col ivu-col-span-12"><div data-v-3655497a=""><span data-v-3655497a="">Language:</span> <div data-v-3655497a="" class="adjust ivu-select ivu-select-single"><div tabindex="0" class="ivu-select-selection"><input type="hidden" value="C++"> <div> <span class="ivu-select-selected-value">C++
+        </span> <!----> <!----> <i class="ivu-icon ivu-icon-arrow-down-b ivu-select-arrow"></i></div></div> <div class="ivu-select-dropdown" style="display: none;"><ul class="ivu-select-not-found" style="display: none;"><li>No matching data</li></ul> <ul class="ivu-select-dropdown-list"><li data-v-3655497a="" class="ivu-select-item">C
+        </li><li data-v-3655497a="" class="ivu-select-item ivu-select-item-selected">C++
+        </li><li data-v-3655497a="" class="ivu-select-item">Java
+        </li><li data-v-3655497a="" class="ivu-select-item">Python3
+        </li></ul> <ul class="ivu-select-loading" style="display: none;">Loading</ul></div></div> <div data-v-3655497a="" class="ivu-tooltip" style="margin-left: 10px;"><div class="ivu-tooltip-rel"><button data-v-3655497a="" type="button" class="ivu-btn ivu-btn-icon-only"><!----> <i class="ivu-icon ivu-icon-refresh"></i> <!----></button></div> <div class="ivu-tooltip-popper" style="display: none; position: absolute; will-change: top, left; top: 0px; left: 265px;" x-placement="top"><div class="ivu-tooltip-content"><div class="ivu-tooltip-arrow"></div> <div class="ivu-tooltip-inner">Reset to default code definition</div></div></div></div> <div data-v-3655497a="" class="ivu-tooltip" style="margin-left: 10px;"><div class="ivu-tooltip-rel"><button data-v-3655497a="" type="button" class="ivu-btn ivu-btn-icon-only"><!----> <i class="ivu-icon ivu-icon-upload"></i> <!----></button></div> <div class="ivu-tooltip-popper" style="display: none; position: absolute; will-change: top, left; top: 0px; left: 321px;" x-placement="top"><div class="ivu-tooltip-content"><div class="ivu-tooltip-arrow"></div> <div class="ivu-tooltip-inner">Upload file</div></div></div></div> <input data-v-3655497a="" type="file" id="file-uploader" style="display: none;"></div></div> <div data-v-3655497a="" class="ivu-col ivu-col-span-12"><div data-v-3655497a="" class="fl-right"><span data-v-3655497a="">Theme:</span> <div data-v-3655497a="" class="adjust ivu-select ivu-select-single"><div tabindex="0" class="ivu-select-selection"><input type="hidden" value="solarized"> <div> <span class="ivu-select-selected-value">Solarized Light
+        </span> <!----> <!----> <i class="ivu-icon ivu-icon-arrow-down-b ivu-select-arrow"></i></div></div> <div class="ivu-select-dropdown" style="display: none;"><ul class="ivu-select-not-found" style="display: none;"><li>No matching data</li></ul> <ul class="ivu-select-dropdown-list"><li data-v-3655497a="" class="ivu-select-item">Monokai
+        </li><li data-v-3655497a="" class="ivu-select-item ivu-select-item-selected">Solarized Light
+        </li><li data-v-3655497a="" class="ivu-select-item">Material
+        </li></ul> <ul class="ivu-select-loading" style="display: none;">Loading</ul></div></div></div></div></div> <div data-v-3655497a="" class="vue-codemirror-wrap"><textarea style="display: none;"></textarea><div class="CodeMirror cm-s-solarized CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 3.99304px; left: 44.9826px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 41px; margin-bottom: -19px; border-right-width: 11px; min-height: 768px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>38</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 3.99305px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-meta">#include&lt;bits/stdc++.h&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">using</span> <span class="cm-keyword">namespace</span> <span class="cm-def">std</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-type">int</span> <span class="cm-def">MaxLength</span>(<span class="cm-type">int</span> <span class="cm-variable">a</span>, <span class="cm-type">int</span> <span class="cm-variable">b</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-type">int</span> <span class="cm-def">main</span>() {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-type">int</span> <span class="cm-variable">a</span>,<span class="cm-variable">b</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">while</span>(<span class="cm-variable">scanf</span>(<span class="cm-string">"%d %d"</span>,<span class="cm-operator">&amp;</span><span class="cm-variable">a</span>,<span class="cm-operator">&amp;</span><span class="cm-variable">b</span>)<span class="cm-operator">!=</span><span class="cm-variable">EOF</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">cout</span> <span class="cm-operator">&lt;&lt;</span> <span class="cm-variable">a</span> <span class="cm-operator">&lt;&lt;</span> <span class="cm-string">" "</span> <span class="cm-operator">&lt;&lt;</span> <span class="cm-variable">b</span> <span class="cm-operator">&lt;&lt;</span> <span class="cm-string">" "</span> <span class="cm-operator">&lt;&lt;</span> <span class="cm-variable">MaxLength</span>(<span class="cm-variable">a</span>,<span class="cm-variable">b</span>) <span class="cm-operator">&lt;&lt;</span> <span class="cm-variable">endl</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-number">0</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">15</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-type">int</span> <span class="cm-def">MaxLength</span>(<span class="cm-type">int</span> <span class="cm-variable">a</span>, <span class="cm-type">int</span> <span class="cm-variable">b</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-type">int</span> <span class="cm-variable">max</span> <span class="cm-operator">=</span> <span class="cm-number">0</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">17</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">if</span>(<span class="cm-variable">a</span> <span class="cm-operator">&gt;</span> <span class="cm-variable">b</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">18</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">swap</span>(<span class="cm-variable">a</span>,<span class="cm-variable">b</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">19</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">20</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">for</span>(<span class="cm-type">int</span> <span class="cm-variable">i</span> <span class="cm-operator">=</span> <span class="cm-variable">a</span>; <span class="cm-variable">i</span> <span class="cm-operator">&lt;=</span> <span class="cm-variable">b</span>; <span class="cm-variable">i</span><span class="cm-operator">++</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">21</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-type">int</span> <span class="cm-variable">tmpmax</span> <span class="cm-operator">=</span> <span class="cm-number">0</span>,<span class="cm-variable">num</span> <span class="cm-operator">=</span> <span class="cm-variable">i</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">22</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">while</span>(<span class="cm-atom">true</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">23</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span>(<span class="cm-variable">num</span> <span class="cm-operator">==</span> <span class="cm-number">1</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">24</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">tmpmax</span><span class="cm-operator">++</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">25</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">break</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">26</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">27</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span>(<span class="cm-variable">num</span> <span class="cm-operator">%</span> <span class="cm-number">2</span> <span class="cm-operator">==</span> <span class="cm-number">1</span>)</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">28</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">num</span> <span class="cm-operator">=</span> <span class="cm-number">3</span><span class="cm-operator">*</span><span class="cm-variable">num</span> <span class="cm-operator">+</span> <span class="cm-number">1</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">29</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">else</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">30</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">num</span> <span class="cm-operator">=</span> <span class="cm-variable">num</span><span class="cm-operator">/</span><span class="cm-number">2</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">31</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">tmpmax</span><span class="cm-operator">++</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">32</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">33</div><div class="CodeMirror-gutter-elt" style="left: 31px; width: 10px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span>(<span class="cm-variable">tmpmax</span> <span class="cm-operator">&gt;</span> <span class="cm-variable">max</span>) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">34</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">max</span> <span class="cm-operator">=</span> <span class="cm-variable">tmpmax</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">35</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">36</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">37</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable">max</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40.9896px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">38</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 11px; width: 1px; border-bottom: 0px solid transparent; top: 768px;"></div><div class="CodeMirror-gutters" style="height: 779px; left: 0.0104103px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 31px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div></div></div> <div data-v-6e5e6c6e="" class="ivu-row-flex ivu-row-flex-space-between"><div data-v-6e5e6c6e="" class="ivu-col ivu-col-span-10"><div data-v-6e5e6c6e=""><div data-v-6e5e6c6e="" class="ivu-alert ivu-alert-success ivu-alert-with-icon"><span class="ivu-alert-icon"><i class="ivu-icon ivu-icon-checkmark-circled"></i></span> <span class="ivu-alert-message">You have solved the problem</span> <span class="ivu-alert-desc"></span> <!----></div></div> <div data-v-6e5e6c6e=""><div data-v-6e5e6c6e="" class="ivu-alert ivu-alert-warning ivu-alert-with-icon"><span class="ivu-alert-icon"><i class="ivu-icon ivu-icon-android-alert"></i></span> <span class="ivu-alert-message">Contest has ended</span> <span class="ivu-alert-desc"></span> <!----></div></div></div> <div data-v-6e5e6c6e="" class="ivu-col ivu-col-span-12"><!----> <button data-v-6e5e6c6e="" type="button" disabled="disabled" class="fl-right ivu-btn ivu-btn-warning"><!----> <i class="ivu-icon ivu-icon-edit"></i> <span><span data-v-6e5e6c6e="">Submit</span></span></button></div></div></div></div></div> <div data-v-6e5e6c6e="" id="right-column"><div data-v-1d12d044="" data-v-6e5e6c6e="" class="ivu-card ivu-card-bordered ivu-card-dis-hover"><!----> <!----> <div class="ivu-card-body" style="padding: 0px;"><ul data-v-1d12d044=""><li data-v-44d2d2f4="" data-v-6e5e6c6e="" class=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-ios-photos" data-v-44d2d2f4=""></i>
+          Problems
+        </li> <li data-v-44d2d2f4="" data-v-6e5e6c6e="" class=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-chatbubble-working" data-v-44d2d2f4=""></i>
+          Announcements
+        </li> <li data-v-44d2d2f4="" data-v-6e5e6c6e="" class=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-navicon-round" data-v-44d2d2f4=""></i>
+         Submissions
+      </li> <li data-v-44d2d2f4="" data-v-6e5e6c6e="" class=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-stats-bars" data-v-44d2d2f4=""></i>
+          Rankings
+        </li> <li data-v-44d2d2f4="" data-v-6e5e6c6e="" class=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-home" data-v-44d2d2f4=""></i>
+          View Contest
+        </li></ul></div></div> <div data-v-6e5e6c6e="" class="ivu-card ivu-card-bordered" id="info"><div class="ivu-card-head"><div data-v-6e5e6c6e="" class="header"><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-information-circled"></i> <span data-v-6e5e6c6e="" class="card-title">Information</span></div></div> <!----> <div class="ivu-card-body"> <ul data-v-6e5e6c6e=""><li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">ID</p> <p data-v-6e5e6c6e="">hw1_1</p></li> <li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">Time Limit</p> <p data-v-6e5e6c6e="">3000MS</p></li> <li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">Memory Limit</p> <p data-v-6e5e6c6e="">64MB</p></li> <li data-v-6e5e6c6e=""></li><li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">IO Mode</p> <p data-v-6e5e6c6e="">Standard IO</p></li> <li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">Created By</p> <p data-v-6e5e6c6e="">q56081024</p></li> <li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">Level</p> <p data-v-6e5e6c6e="">Low</p></li> <!----> <li data-v-6e5e6c6e=""><p data-v-6e5e6c6e="">Tags</p> <p data-v-6e5e6c6e=""><div data-v-6e5e6c6e="" class="ivu-poptip"><div class="ivu-poptip-rel"><a data-v-6e5e6c6e="">Show</a> </div> <div class="ivu-poptip-popper" style="display: none; position: absolute; will-change: top, left; top: 275px; left: 166px;" x-placement="left-end"><div class="ivu-poptip-content"><div class="ivu-poptip-arrow"></div> <!----> <div class="ivu-poptip-inner"><!----> <div class="ivu-poptip-body"><div class="ivu-poptip-body-content"><div data-v-6e5e6c6e=""><div data-v-6e5e6c6e="" class="ivu-tag ivu-tag-default ivu-tag-checked"><!----> <span class="ivu-tag-text">HW1</span> <!----></div></div></div></div></div></div></div></div></p></li></ul></div></div> <div data-v-6e5e6c6e="" class="ivu-card ivu-card-bordered" id="pieChart"><div class="ivu-card-head"><div data-v-6e5e6c6e=""><i data-v-6e5e6c6e="" class="ivu-icon ivu-icon-ios-analytics"></i> <span data-v-6e5e6c6e="" class="card-title">Statistic</span> <button data-v-6e5e6c6e="" type="button" class="ivu-btn ivu-btn-ghost ivu-btn-small" id="detail"><!----> <!----> <span>Details</span></button></div></div> <!----> <div class="ivu-card-body" style="padding: 0px;"> <div data-v-6e5e6c6e="" class="echarts"><div data-v-6e5e6c6e="" class="echarts" style="-webkit-tap-highlight-color: transparent; user-select: none; background: transparent;" _echarts_instance_="ec_1621304655674"><div style="position: relative; overflow: hidden; width: 210px; height: 250px; padding: 0px; margin: 0px; border-width: 0px;"><canvas width="210" height="250" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 210px; height: 250px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div></div></div></div></div></div> <!----></div> <!----></div> <div data-v-64fc3174="" id="contest-menu" style="display: none;"><div data-v-1d12d044="" data-v-64fc3174="" class="ivu-card ivu-card-bordered ivu-card-dis-hover"><!----> <!----> <div class="ivu-card-body" style="padding: 0px;"><ul data-v-1d12d044=""><li data-v-44d2d2f4="" data-v-64fc3174="" class=""><i data-v-64fc3174="" class="ivu-icon ivu-icon-home" data-v-44d2d2f4=""></i>
+        Overview
+      </li> <li data-v-44d2d2f4="" data-v-64fc3174="" class=""><i data-v-64fc3174="" class="ivu-icon ivu-icon-chatbubble-working" data-v-44d2d2f4=""></i>
+        Announcements
+      </li> <li data-v-44d2d2f4="" data-v-64fc3174="" class=""><i data-v-64fc3174="" class="ivu-icon ivu-icon-ios-photos" data-v-44d2d2f4=""></i>
+        Problems
+      </li> <li data-v-44d2d2f4="" data-v-64fc3174="" class=""><i data-v-64fc3174="" class="ivu-icon ivu-icon-navicon-round" data-v-44d2d2f4=""></i>
+        Submissions
+      </li> <li data-v-44d2d2f4="" data-v-64fc3174="" class=""><i data-v-64fc3174="" class="ivu-icon ivu-icon-stats-bars" data-v-44d2d2f4=""></i>
+        Rankings
+      </li> <!----></ul></div></div></div></div> <div class="footer"><p>Competitive Programming 2021 (Spring) @ NCKU</p> <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a> <span>&nbsp; Version: 20200709-f092d</span></p></div></div> <div class="ivu-back-top" style="bottom: 30px; right: 30px;"><div class="ivu-back-top-inner"><i class="ivu-icon ivu-icon-chevron-up"></i></div></div></div><script type="text/javascript" src="./The 3n + 1 Problem_files/vendor.dll.7d98bec.js.下載"></script><script type="text/javascript" src="./The 3n + 1 Problem_files/manifest.de1f2639880d04a5d5a4.js.下載"></script><script type="text/javascript" src="./The 3n + 1 Problem_files/vendor.975b0b87fb42d752df9e.js.下載"></script><script type="text/javascript" src="./The 3n + 1 Problem_files/oj.484488252c14f613192c.js.下載"></script><div class="ivu-loading-bar" style="height: 2px; display: none;"><div class="ivu-loading-bar-inner ivu-loading-bar-inner-color-primary" style="width: 0%; height: 2px;"></div></div><div data-v-2e5fb307="" data-transfer="true" class="v-transfer-dom"><div class="ivu-modal-mask" style="display: none;"></div> <div class="ivu-modal-wrap ivu-modal-hidden"><div class="ivu-modal" style="width: 400px; display: none;"><div class="ivu-modal-content"><a class="ivu-modal-close"><i class="ivu-icon ivu-icon-ios-close-empty"></i></a> <div class="ivu-modal-header"><div data-v-2e5fb307="" class="modal-title">Welcome to CPOJ</div></div> <div class="ivu-modal-body"></div> <div class="ivu-modal-footer"><div data-v-2e5fb307="" style="display: none;"></div></div></div></div></div></div><div data-v-6e5e6c6e="" data-transfer="true" class="v-transfer-dom"><div class="ivu-modal-mask" style="display: none;"></div> <div class="ivu-modal-wrap ivu-modal-hidden"><div class="ivu-modal" style="width: 520px; display: none;"><div class="ivu-modal-content"><a class="ivu-modal-close"><i class="ivu-icon ivu-icon-ios-close-empty"></i></a> <!----> <div class="ivu-modal-body"><div data-v-6e5e6c6e="" id="pieChart-detail"><div data-v-6e5e6c6e="" class="echarts" _echarts_instance_="ec_1621304655675" style="-webkit-tap-highlight-color: transparent; user-select: none; background: transparent;"><div style="position: relative; overflow: hidden; width: 500px; height: 480px; padding: 0px; margin: 0px; border-width: 0px;"><canvas width="500" height="480" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 500px; height: 480px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div></div></div> </div> <div class="ivu-modal-footer"><div data-v-6e5e6c6e=""><button data-v-6e5e6c6e="" type="button" class="ivu-btn ivu-btn-ghost"><!----> <!----> <span>Close</span></button></div></div></div></div></div></div></body></html>
